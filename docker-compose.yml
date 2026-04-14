@@ -1,0 +1,4 @@
+# docker-compose.yml
+# sera complété à l'Étape 2 du projet
+version: '3.8'
+services: {}
