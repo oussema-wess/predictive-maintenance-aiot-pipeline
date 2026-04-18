@@ -297,7 +297,7 @@ class FleetSimulator:
             else:
                 logger.error(f"❌ Connexion MQTT échouée : rc={rc}")
 
-        def on_disconnect(client, userdata, rc):
+        def on_disconnect(client, userdata, disconnect_flags, rc, properties=None):
             logger.warning(f"Déconnecté du broker MQTT : rc={rc}")
 
         client.on_connect    = on_connect
