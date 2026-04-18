@@ -1,0 +1,21 @@
+# ============================================================
+# datasources.yml
+# Configuration de la source de données Grafana → InfluxDB
+# ============================================================
+
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    url: http://influxdb:8086
+    jsonData:
+      version: Flux
+      organization: aiot-org
+      defaultBucket: sensors
+      tlsSkipVerify: true
+    secureJsonData:
+      token: my-super-secret-token
+    isDefault: true
+    editable: true
