@@ -234,9 +234,9 @@ predictive-maintenance-aiot-pipeline/
 
 ## 👤 Author
 
-**[Your Name]**
-- LinkedIn: [your-linkedin]
-- GitHub: [your-github]
+**Oussema Weslati**
+- LinkedIn: https://www.linkedin.com/in/oussema-weslati-b9b9b2368/
+- GitHub: https://github.com/oussema-wess
 
 ---
 
